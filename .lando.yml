@@ -1,0 +1,8 @@
+name: golang-tutorials
+services:
+  golangservice:
+    type: go
+tooling:
+  go:
+    service: golangservice
+    cmd: go run main.go
